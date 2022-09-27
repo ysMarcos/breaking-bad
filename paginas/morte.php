@@ -1,7 +1,7 @@
 <?php
 
-    $morteUrl = "https://www.breakingbadapi.com/api/random-death?limit=1&offset=1";
-    $dados = file_get_contents($morteUrl);
+    $urlMorte = "https://www.breakingbadapi.com/api/random-death?limit=1&offset=1";
+    $dados = file_get_contents($urlMorte);
     $dados = json_decode($dados);
 
     foreach($dados as $morte){
