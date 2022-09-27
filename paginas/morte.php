@@ -1,5 +1,5 @@
 <?php
-    $url = "https://www.breakingbadapi.com/api/random-death?limit=1&offset=1";
+    $url = "https://www.breakingbadapi.com/api/deaths";
 
     $dados = file_get_contents($url);
     $dados = json_decode($dados);
