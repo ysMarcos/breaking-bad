@@ -1,6 +1,9 @@
 <h1 class="text-center">
     Personagens
 </h1>
+
+
+
 <div class="row">
     <?php
         $url = "https://www.breakingbadapi.com/api/character/random?limit=10&offset=10";
