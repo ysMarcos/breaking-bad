@@ -6,9 +6,9 @@
 
 <div class="row">
     <?php
-        $url = "https://www.breakingbadapi.com/api/character/random?limit=10&offset=10";
-
-        $dados = file_get_contents($url);
+        $urlPersonagem = "https://www.breakingbadapi.com/api/character/random?limit=10&offset=10";
+        
+        $dados = file_get_contents($urlPersonagem);
         $dados = json_decode($dados);
         foreach($dados as $personagem){
             $img = $personagem->img;
