@@ -48,7 +48,7 @@
             </ul>
             </li>
             <li class="nav-item">  
-                <a class="nav-link" href="morte">Mortes</a>
+                <a class="nav-link active" href="morte">Mortes</a>
             </li>
         </ul>
         </div>
