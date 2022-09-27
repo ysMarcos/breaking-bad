@@ -70,9 +70,6 @@
                 include "paginas/erro.php";
             }
         ?>
-        <!-- aa --
-        aa
-        -->
     </main>
 </body>
 </html>
