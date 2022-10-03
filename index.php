@@ -31,21 +31,18 @@
                 </a>
                 <ul class="dropdown-menu">
                 <li>
-                    <a class="dropdown-item" href="#">Todos</a>
-                </li>
-                <li>
-                    <a class="dropdown-item" href="#">Por Categoria</a>
+                    <a class="dropdown-item" href="#">Todos os personagens</a>
                 </li>
                 <li>
                     <a class="dropdown-item" href="#">Personagem Aleatorio</a>
-                </li>
-                <li>
-                    <a class="dropdown-item" href="#">Por Nome</a>
                 </li>
             </ul>
             </li>
             <li class="nav-item">  
                 <a class="nav-link" href="morte">Mortes</a>
+            </li>
+            <li class="nav-item">  
+                <a class="nav-link" href="episodios">Episodios</a>
             </li>
         </ul>
         </div>
@@ -59,7 +56,6 @@
             if(isset($_GET["param"])){
                 $param = trim($_GET["param"]);
                 $param = explode("/", $param);
-               
                 $pagina = $param[0];
             }
 
