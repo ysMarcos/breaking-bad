@@ -16,7 +16,9 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-light">
     <div class="container-fluid">
-        <a class="navbar-brand" href="index.php">home</a>
+        <a class="navbar-brand" href="index.php">
+            <img src="logo.png" class="w-100" style="height: 100px">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
@@ -25,24 +27,8 @@
             <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="home">Home</a>
             </li>
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Personagens
-                </a>
-                <ul class="dropdown-menu">
-                <li>
-                    <a class="dropdown-item" href="#">Todos os personagens</a>
-                </li>
-                <li>
-                    <a class="dropdown-item" href="#">Personagem Aleatorio</a>
-                </li>
-            </ul>
-            </li>
             <li class="nav-item">  
                 <a class="nav-link" href="morte">Mortes</a>
-            </li>
-            <li class="nav-item">  
-                <a class="nav-link" href="episodios">Episodios</a>
             </li>
         </ul>
         </div>
