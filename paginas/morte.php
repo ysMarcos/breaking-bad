@@ -16,7 +16,7 @@
         <div class="card-body">
           <h1 class="card-title"><?= $dados->death ?></h1>
           
-          <h4 class="card-text"><small class="text-muted">Cause of death: 
+          <h4 class="card-text"><small class="text-muted">Cause of death:
             <strong><?= $dados->cause ?></strong> </small>
           </h4>
 
