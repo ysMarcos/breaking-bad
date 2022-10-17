@@ -18,6 +18,7 @@
                         <img src="<?= $img ?>" class="w-100">
                         <div class="card-body text-center">
                             <p><strong><?= $personagem->name ?></strong></p>
+                            <p><a href="personagem" >top</a></p>
                         </div>
                     </div>
                 </div>
