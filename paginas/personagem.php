@@ -10,8 +10,7 @@
     $urlPersonagem = "https://www.breakingbadapi.com/api/characters/{$id}";
     $dados = file_get_contents($urlPersonagem);
     $dados = json_decode($dados);
-    
-    print_r($dados);
+
     ?>
     <div class="card mb-3" style="max-width: 100%;">
     <div class="row g-0">
@@ -63,6 +62,20 @@
                 <?php
             }
             ?>
+            <h4 class="card-text"><small class="text-muted">Frase: 
+                <?php
+
+                $nome =  str_replace(' ', '+', $dados[0]->name);
+                $urlFrase = "https://www.breakingbadapi.com/api/quote?author={$nome}";
+                $dadosFrase = file_get_contents($urlFrase);
+                $dadosFrase = json_decode($dadosFrase);
+                
+                if( empty($dadosFrase[0]->quote)){
+                    return null;
+                }
+                ?>
+                <small><strong><?= $dadosFrase[0]->quote ?></strong></small>
+            </h4>
             </h4>
           </h4>
         </div>
