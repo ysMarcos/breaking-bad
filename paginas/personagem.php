@@ -67,7 +67,7 @@
                 <?php
 
                 $nome =  str_replace(' ', '+', $dados[0]->name);
-                $urlFrase = "https://www.breakingbadapi.com/api/quote?author={$nome}";
+                $urlFrase = "https://www.breakingbadapi.com/api/quote/random?author={$nome}&limit=1&offset=1";
                 $dadosFrase = file_get_contents($urlFrase);
                 $dadosFrase = json_decode($dadosFrase);
                 
