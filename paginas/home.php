@@ -16,7 +16,7 @@
            
            <div class="col-12 col-md-3">
             <div class="card">
-            <img src="<?= $img ?>" class="card-grid w-100" style="height:40vh">
+            <img src="<?= $img ?>" class="w-100" style="height:40vh">
             <div class="class card-body text-center">
             <p>
                                 <strong><?= $personagem->name ?></strong>
