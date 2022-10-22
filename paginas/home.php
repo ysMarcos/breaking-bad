@@ -6,7 +6,7 @@
 
 <div class="row">
     <?php
-        $urlPersonagem = "https://www.breakingbadapi.com/api/character/random?limit=10&offset=10";
+        $urlPersonagem = "https://www.breakingbadapi.com/api/character/random?limit=8&offset=8";
         
         $dados = file_get_contents($urlPersonagem);
         $dados = json_decode($dados);

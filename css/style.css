@@ -1,5 +1,24 @@
+/* 
+kevin fazer ideias 
+morte : animação de chegada do card 
+home: 
+
+*/
+
 .card{
     border-radius: 0px;
     margin-bottom: 10px;
     box-shadow: 0 0 10px #c5c5c5;
 }
+
+.img-header{
+     background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: block;
+}
+
+.all-font{
+    font-family: sans-serif;
+}
+

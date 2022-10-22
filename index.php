@@ -14,28 +14,28 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="index.php">
-            <img src="logo.png" class="w-100" style="height: 100px">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="home">Home</a>
-            </li>
-            <li class="nav-item">  
-                <a class="nav-link" href="morte">Mortes</a>
-            </li>
-        </ul>
+    
+        <nav class=" all-font navbar navbar-expand-lg bg-light">
+        <div class=" img-header container-fluid" style="background-image: url(https://cdn.shopify.com/s/files/1/1565/9935/t/101/assets/header-bgbig.png?v=103312390580820564361665078098);">
+            <a class="navbar-brand" href="index.php">
+                <img src="logo.png" class="w-100" style="height: 100px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="text-white nav-link active" aria-current="page" href="home">Home</a>
+                    </li>
+                    <li class="nav-item">  
+                        <a class="text-white nav-link" href="morte">Mortes</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-    </nav>
-
-    <main class="container">
+        </nav>
+    <main class="all-font container">
         <?php
             $pagina = "home";
 
