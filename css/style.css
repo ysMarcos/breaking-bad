@@ -12,7 +12,7 @@ home:
 } */
 body {
     font-family: 'Oswald', sans-serif !important;
-    background-image: url(https://i.pinimg.com/originals/c8/dd/4e/c8dd4e1b9fa3c40d15bc9c24fc801084.jpg);
+    /* background-image: url(https://i.pinimg.com/originals/c8/dd/4e/c8dd4e1b9fa3c40d15bc9c24fc801084.jpg); */
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -58,7 +58,7 @@ body {
 .card .details .center {
     padding: 20px;
     text-align: center;
-    background: yellow;
+    background: orangered;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -71,6 +71,8 @@ body {
     position: relative;
     display: block;
     background-image: url(https://cdn.shopify.com/s/files/1/1565/9935/t/101/assets/header-bgbig.png?v=103312390580820564361665078098);
+    padding: 0;
+    margin: 0;
 }
 
 .botao-info{
