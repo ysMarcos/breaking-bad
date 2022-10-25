@@ -28,7 +28,7 @@
                     <div class="details">
                         <div class="center">
                                 <p>
-                                    <?= $personagem->name ?>               
+                                    <strong><?= $personagem->name ?></strong>               
                                 </p>
                         </div>
                 

@@ -10,6 +10,13 @@ home:
     box-shadow: 0 0 10px #c5c5c5;
        
 } */
+body {
+    font-family: 'Oswald', sans-serif !important;
+    background-image: url(https://i.pinimg.com/originals/c8/dd/4e/c8dd4e1b9fa3c40d15bc9c24fc801084.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
 .top-left{
     top: 25vh;
     left: 8vw;
@@ -64,10 +71,6 @@ home:
     position: relative;
     display: block;
     background-image: url(https://cdn.shopify.com/s/files/1/1565/9935/t/101/assets/header-bgbig.png?v=103312390580820564361665078098);
-}
-
-.all-font{
-    font-family: sans-serif;
 }
 
 .botao-info{
