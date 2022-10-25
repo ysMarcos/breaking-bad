@@ -7,9 +7,9 @@
    
     
     ?>
-    <div class="card mb-3" style="max-width: 100%;">
-    <div class="row g-0">
-      <div class="col-md-4">
+    <div class="card centro-card" style="max-width: 100%;">
+    <div class="row g-0 ">
+      <div class="col-md-4 ">
       <img src='<?= $dados->img ?>' class='img-fluid rounded-start w-100' style="height: 65vh;">        
       </div>
       <div class="col-md-8">

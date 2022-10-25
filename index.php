@@ -16,7 +16,7 @@
 <body>
     
         <nav class=" all-font navbar navbar-expand-lg bg-light">
-        <div class=" img-header container-fluid" style="background-image: url(https://cdn.shopify.com/s/files/1/1565/9935/t/101/assets/header-bgbig.png?v=103312390580820564361665078098);">
+        <div class=" img-header container-fluid">
             <a class="navbar-brand" href="index.php">
                 <img src="logo.png" class="w-100" style="height: 100px">
             </a>

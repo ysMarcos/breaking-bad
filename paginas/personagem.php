@@ -12,7 +12,7 @@
     $dados = json_decode($dados);
 
     ?>
-    <div class="card mb-3" style="max-width: 100%; max-height: auto;">
+    <div class="card mb-3 centro-card " style="max-width: 100%; max-height: auto;">
     <div class="row g-0">
       <div class="col-md-4">
       <img src='<?= $dados[0]->img ?>' class='img-fluid rounded-start w-100' style="height: 65vh;">        
