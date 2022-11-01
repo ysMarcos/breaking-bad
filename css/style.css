@@ -13,8 +13,11 @@ home:
 body {
     font-family: 'Oswald', sans-serif !important;
     /* background-image: url(https://i.pinimg.com/originals/c8/dd/4e/c8dd4e1b9fa3c40d15bc9c24fc801084.jpg); */
+    /* background-color: black; */
+    background-image: url(../fundo.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
+    
 }
 
 .top-left{
@@ -26,7 +29,7 @@ body {
     left: 35vw;
 }
 .card {
-    /* margin-bottom: 10px; */
+    margin-bottom: 10px;
     transform: translate(-50%,-50%);
 }
 .card .image {
@@ -58,7 +61,7 @@ body {
 .card .details .center {
     padding: 20px;
     text-align: center;
-    background: orangered;
+    background: white;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -89,4 +92,8 @@ body {
     border-radius: 0 0 0 32px;
 }
 
+
+.div-infos h1{
+    text-align: center;
+}
 

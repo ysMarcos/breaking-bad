@@ -18,7 +18,7 @@
       <img src='<?= $dados[0]->img ?>' class='img-fluid rounded-start w-100' style="height: 65vh;">        
       </div>
       <div class="col-md-8">
-        <div class="card-body">
+        <div class="card-body div-infos">
           <h1 class="card-title"><?= $dados[0]->name ?></h1>
           
           <h4 class="card-text"><small class="text-muted">Apelido:

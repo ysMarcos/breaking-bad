@@ -1,5 +1,6 @@
-<h1 class="text-center">
-    Personagens
+<h1 class="text-center text-light">
+    Personagens    
+    
 </h1>
 
 
