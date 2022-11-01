@@ -69,7 +69,7 @@ body {
 
 
 .img-header{
-     background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     display: block;
@@ -97,3 +97,6 @@ body {
     text-align: center;
 }
 
+.navbar {
+    margin-bottom: 0;
+}

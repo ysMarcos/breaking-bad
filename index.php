@@ -19,8 +19,8 @@
 </head>
 <body>
     
-        <nav class=" all-font navbar navbar-expand-lg bg-light">
-        <div class=" img-header container-fluid">
+        <nav class=" navbar navbar-expand-lg bg-light img-header">
+        <div class="  container-fluid">
             <a class="navbar-brand" href="index.php">
                 <img src="logo.png" class="w-100" style="height: 100px">
             </a>
